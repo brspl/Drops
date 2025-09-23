@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ile czasu do końca dropa? | Twitch Drops</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Ile czasu do końca dropa?</h1>
+
+    <label for="droptime">Długość trwania (w godzinach)</label>
+    <input type="number" id="droptime" name="droptime" required min="1" max="100" step="1" value="2" />
+
+    <label for="timeleft">Aktualna ilość zdobytego dropu (w procentach)</label>
+    <input type="number" id="timeleft" name="timeleft" required min="0" max="100" step="1" value="0" />
+
+    <p class="result" id="result"></p>
+    <input type="submit" value="Oblicz!" onclick="calculate()" />
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
