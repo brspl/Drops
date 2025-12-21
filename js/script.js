@@ -9,13 +9,11 @@ function calculate() {
     let MINUTES = Math.floor((result % 3600) / 60);
     let SECONDS = result % 60;
     document.title = `Pozostało: ${HOURS}h:${MINUTES}m:${SECONDS}s`;
-    document.getElementById(
-      "result"
-    ).textContent = `Pozostało: ${HOURS}h ${MINUTES}m ${SECONDS}s`;
+    document.getElementById("result").textContent = `Pozostało: ${HOURS}h ${MINUTES}m ${SECONDS}s`;
 
     if (result <= 0) {
       clearInterval(timer);
-      document.title = "Ile czasu do końca dropa? | Twitch Drops";
+      document.title = "Ile do końca dropa? | Twitch Drops 🎁";
       document.getElementById("result").textContent = "Koniec!";
     }
   }, 1000);
