@@ -9,7 +9,7 @@ function calculate() {
     let MINUTES = Math.floor((result % 3600) / 60);
     let SECONDS = result % 60;
     document.title = `Pozostało: ${HOURS}h:${MINUTES}m:${SECONDS}s`;
-    document.getElementById("result").textContent = `Pozostało: ${HOURS}h ${MINUTES}m ${SECONDS}s`;
+    document.getElementById("result").textContent = `Pozostało: ${HOURS}h:${MINUTES}m:${SECONDS}s`;
 
     if (result <= 0) {
       clearInterval(timer);
