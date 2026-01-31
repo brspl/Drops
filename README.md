@@ -4,7 +4,7 @@
 
 Projekt powstał jako lekka, hobbystyczna strona internetowa — bez backendu, bez logowania, po prostu szybkie obliczenia w przeglądarce.
 
-🔗 **Demo (GitHub Pages):**  
+🔗 **Wersja online:**  
 https://brspl.github.io/Drops/
 
 ---
