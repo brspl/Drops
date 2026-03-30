@@ -15,6 +15,14 @@ function updateUI(seconds) {
   document.getElementById("result").textContent = text;
 }
 
+function openModal() {
+  document.getElementById("modal").classList.add("active");
+}
+
+function closeModal() {
+  document.getElementById("modal").classList.remove("active");
+}
+
 function calculate() {
   if (timer !== null) {
     clearInterval(timer);
