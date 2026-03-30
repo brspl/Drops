@@ -47,7 +47,7 @@ function calculate() {
       timer = null;
 
       document.title = "Ile do końca dropa? | Twitch Drops 🎁";
-      document.getElementById("result").textContent = "Koniec!";
+      document.getElementById("result").textContent = "Koniec! 🎁";
     }
   }, 1000);
 }
